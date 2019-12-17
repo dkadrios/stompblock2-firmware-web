@@ -10,7 +10,7 @@
     "url": "git@github.com:dkadrios/stompblock2-firmware-web.git"
   },
   "scripts": {
-    "build:prod": "NODE_ENV=production parcel build index.html --no-source-maps --detailed-report --no-cache --public-url .",
+    "build:prod": "NODE_ENV=production parcel build app/index.html --no-source-maps --detailed-report --no-cache --public-url .",
     "build": "npm run clean && npm run build:prod",
     "clean": "rimraf dist",
     "dev": "parcel app/index.html --port 8080",
