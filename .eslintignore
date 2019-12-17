@@ -1,0 +1,9 @@
+dist/
+coverage/
+node_modules
+**/*.scss
+**/*.png
+**/*.svg
+**/thirdParty
+**/third-party
+**/*.html
